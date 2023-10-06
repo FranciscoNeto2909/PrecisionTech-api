@@ -1,5 +1,6 @@
 const Sequelize = require("sequelize")
 const database = require("../configs/db")
+const { scheduler } = require("timers/promises")
 
 const Schedule = database.define("schedule", {
     id: {
