@@ -11,4 +11,3 @@ app.use(cors())
 
 app.listen(port, console.log("executando..."))
 app.use("/schedules", scheduleRoutes)
-app.use("/emailAuth", emailAuthRoutes)

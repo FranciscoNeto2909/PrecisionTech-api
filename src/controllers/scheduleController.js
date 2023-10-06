@@ -1,8 +1,6 @@
 const Schedule = require("../models/schedule")
 const { sendEmail } = require("../middlewares/sendEmail")
 
-
-
 module.exports = {
     async all(req, res) {
         try {
